@@ -1,0 +1,49 @@
+.navbar {
+  color: white;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 50px;
+  height: 60px;
+  align-items: center;
+  .nav-left {
+    font-size: 40px;
+    font-family: "WDXL Lubrifont TC", sans-serif;
+    font-weight: 350;
+    font-style: normal;
+    a {
+      color: rgb(15, 201, 145);
+      text-shadow: 2px 2px 4px rgba(145, 89, 12, 0.78);
+    }
+  }
+}
+
+.nav-right {
+  .nav-links {
+    font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+    display: flex;
+    list-style: none;
+    gap: 18px;
+    
+  }
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+a:hover{
+  color: rgb(255, 255, 0);
+}
+
+@media (max-width: 767.98px) {
+  .navbar{
+    width: 90%;
+  }
+  .nav-right {
+    display: none;
+  }.nav-left a{
+    font-size: 30px !important;
+  }
+}

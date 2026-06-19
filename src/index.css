@@ -1,0 +1,18 @@
+*{
+    background-color: black;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Set background only on body */
+body {
+  background-color: black;
+  width: auto;
+  min-height: 100vh;
+}
+html, body {
+  overflow-x: hidden;
+}
